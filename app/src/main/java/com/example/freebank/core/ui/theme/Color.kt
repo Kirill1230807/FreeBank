@@ -1,4 +1,4 @@
-package com.example.freebank.ui.theme
+package com.example.freebank.core.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
