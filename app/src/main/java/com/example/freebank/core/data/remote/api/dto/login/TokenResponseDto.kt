@@ -5,10 +5,10 @@ import kotlinx.serialization.Serializable
 
 @Serializable
 data class TokenResponseDto(
-    @SerialName("accessToken")
+    @SerialName("access_token")
     val accessToken: String,
-    @SerialName("refreshToken")
+    @SerialName("refresh_token")
     val refreshToken: String,
-    @SerialName("expiresIn")
+    @SerialName("expires_in")
     val expiresIn: Int
 )
